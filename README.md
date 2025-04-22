@@ -1,1 +1,2 @@
 # electrostatics_code
+In the folders are the pdb files used for the bioinformatics and electrostatics analysis. I've attached an MCCE sample ftpl file, but I strongly recommend following the gunner lab documentation found here: https://gunnerlab.github.io/Stable-MCCE/emexample/ . This is what I followed but depending on your functional and basis set you may get different charges, although you should reach the some conclusions we did in the paper. 
