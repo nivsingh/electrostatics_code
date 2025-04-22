@@ -1,0 +1,28 @@
+#!/bin/sh
+# 
+## SLURM
+#
+#
+#SBATCH -n 1
+#SBATCH -p et3
+#SBATCH --mem-per-cpu=1500
+#SBATCH -J 1ahn_fp
+#SBATCH -o fmn.inf
+#SBATCH -e fmn.err
+#SBATCH --time=120:00:00
+#SBATCH --ntasks-per-node=1
+
+export PATH=$PATH:/home/ns290/Stable-MCCE/bin
+
+module load python/3.10.1
+
+cd $SLURM_SUBMIT_DIR
+
+step1.py 1ahn.pdb > run1.log
+step2.py -l 3 > run2.log
+step3.py -d 4 -f /scr > run3.log
+step4.py --norun -u TITR_PH0=8.0 -i -600 -d 60 -n 15 -t eh
+
+
+
+

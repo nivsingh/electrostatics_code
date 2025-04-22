@@ -1,0 +1,326 @@
+#fmn01 is asq and fmn-1 is ox
+# Conformer definition
+CONFLIST, FMN: FMNBK, FMN01, FMN-1
+
+# ATOM name and bonds
+CONNECT, " N1 ", FMN01:  sp2, " C2 "," C10"
+CONNECT, " C2 ", FMN01:  sp2, " N1 "," O2 "," N3 "
+CONNECT, " O2 ", FMN01:  sp3, " C2 "
+CONNECT, " N3 ", FMN01:  sp2, " C2 "," C4 "," HN3"
+CONNECT, " C4 ", FMN01:  sp2, " N3 "," O4 "," C4A"
+CONNECT, " O4 ", FMN01:  sp3, " C4 "
+CONNECT, " C4A", FMN01:  sp2, " C4 "," N5 "," C10"
+CONNECT, " N5 ", FMN01:  sp2, " C4A"," C5A"
+CONNECT, " C5A", FMN01:  sp2, " N5 "," C6 "," C9A"
+CONNECT, " C6 ", FMN01:  sp2, " C5A"," C7 "," H6 "
+CONNECT, " C7 ", FMN01:  sp2, " C6 "," C7M"," C8 "
+CONNECT, " C7M", FMN01:  sp3, " C7 ","HM71","HM72","HM73"
+CONNECT, " C8 ", FMN01:  sp2, " C7 "," C8M"," C9 "
+CONNECT, " C8M", FMN01:  sp3, " C8 ","HM81","HM82","HM83"
+CONNECT, " C9 ", FMN01:  sp2, " C8 "," C9A"," H9 "
+CONNECT, " C9A", FMN01:  sp2, " C5A"," C9 "," N10"
+CONNECT, " N10", FMN01:  sp2, " C9A"," C10"," C1'"
+CONNECT, " C10", FMN01:  sp2, " N1 "," C4A"," N10"
+CONNECT, " C1'", FMN01:  sp3, " N10"," C2'","H1'1","H1'2"
+CONNECT, " C2'", FMN01:  sp3, " C1'"," O2'"," C3'"," H2'"
+CONNECT, " O2'", FMN01:  sp3, " C2'","HO2'"
+CONNECT, " C3'", FMN01:  sp3, " C2'"," O3'"," C4'"," H3'"
+CONNECT, " O3'", FMN01:  sp3, " C3'","HO3'"
+CONNECT, " C4'", FMN01:  sp3, " C3'"," O4'"," C5'"," H4'"
+CONNECT, " O4'", FMN01:  sp3, " C4'","HO4'"
+CONNECT, " C5'", FMN01:  sp3, " C4'"," O5'","H5'1","H5'2"
+CONNECT, " O5'", FMN01:  sp2, " C5'"," P  "
+CONNECT, " P  ", FMN01:  sp3, " O5'"," O1P"," O2P"," O3P"
+CONNECT, " O1P", FMN01:  sp3, " P  "
+CONNECT, " O2P", FMN01:  sp3, " P  "
+CONNECT, " O3P", FMN01:  sp3, " P  "
+CONNECT, "HO1P", FMN01:  sp3, " O1P"
+CONNECT, "HO2P", FMN01:  sp3, " O2P"
+CONNECT, " HN3", FMN01:    s, " N3 "
+CONNECT, " H6 ", FMN01:    s, " C6 "
+CONNECT, "HM71", FMN01:    s, " C7M"
+CONNECT, "HM72", FMN01:    s, " C7M"
+CONNECT, "HM73", FMN01:    s, " C7M"
+CONNECT, "HM81", FMN01:    s, " C8M"
+CONNECT, "HM82", FMN01:    s, " C8M"
+CONNECT, "HM83", FMN01:    s, " C8M"
+CONNECT, " H9 ", FMN01:    s, " C9 "
+CONNECT, "H1'1", FMN01:    s, " C1'"
+CONNECT, "H1'2", FMN01:    s, " C1'"
+CONNECT, " H2'", FMN01:    s, " C2'"
+CONNECT, "HO2'", FMN01:    s, " O2'"
+CONNECT, " H3'", FMN01:    s, " C3'"
+CONNECT, "HO3'", FMN01:    s, " O3'"
+CONNECT, " H4'", FMN01:    s, " C4'"
+CONNECT, "HO4'", FMN01:    s, " O4'"
+CONNECT, "H5'1", FMN01:    s, " C5'"
+CONNECT, "H5'2", FMN01:    s, " C5'"
+CONNECT, " N1 ", FMN-1:  sp2, " C2 "," C10"
+CONNECT, " C2 ", FMN-1:  sp2, " N1 "," O2 "," N3 "
+CONNECT, " O2 ", FMN-1:  sp3, " C2 "
+CONNECT, " N3 ", FMN-1:  sp2, " C2 "," C4 "," HN3"
+CONNECT, " C4 ", FMN-1:  sp2, " N3 "," O4 "," C4A"
+CONNECT, " O4 ", FMN-1:  sp3, " C4 "
+CONNECT, " C4A", FMN-1:  sp2, " C4 "," N5 "," C10"
+CONNECT, " N5 ", FMN-1:  sp2, " C4A"," C5A"
+CONNECT, " C5A", FMN-1:  sp2, " N5 "," C6 "," C9A"
+CONNECT, " C6 ", FMN-1:  sp2, " C5A"," C7 "," H6 "
+CONNECT, " C7 ", FMN-1:  sp2, " C6 "," C7M"," C8 "
+CONNECT, " C7M", FMN-1:  sp3, " C7 ","HM71","HM72","HM73"
+CONNECT, " C8 ", FMN-1:  sp2, " C7 "," C8M"," C9 "
+CONNECT, " C8M", FMN-1:  sp3, " C8 ","HM81","HM82","HM83"
+CONNECT, " C9 ", FMN-1:  sp2, " C8 "," C9A"," H9 "
+CONNECT, " C9A", FMN-1:  sp2, " C5A"," C9 "," N10"
+CONNECT, " N10", FMN-1:  sp2, " C9A"," C10"," C1'"
+CONNECT, " C10", FMN-1:  sp2, " N1 "," C4A"," N10"
+CONNECT, " C1'", FMN-1:  sp3, " N10"," C2'","H1'1","H1'2"
+CONNECT, " C2'", FMN-1:  sp3, " C1'"," O2'"," C3'"," H2'"
+CONNECT, " O2'", FMN-1:  sp3, " C2'","HO2'"
+CONNECT, " C3'", FMN-1:  sp3, " C2'"," O3'"," C4'"," H3'"
+CONNECT, " O3'", FMN-1:  sp3, " C3'","HO3'"
+CONNECT, " C4'", FMN-1:  sp3, " C3'"," O4'"," C5'"," H4'"
+CONNECT, " O4'", FMN-1:  sp3, " C4'","HO4'"
+CONNECT, " C5'", FMN-1:  sp3, " C4'"," O5'","H5'1","H5'2"
+CONNECT, " O5'", FMN-1:  sp2, " C5'"," P  "
+CONNECT, " P  ", FMN-1:  sp3, " O5'"," O1P"," O2P"," O3P"
+CONNECT, " O1P", FMN-1:  sp3, " P  "
+CONNECT, " O2P", FMN-1:  sp3, " P  "
+CONNECT, " O3P", FMN-1:  sp3, " P  "
+CONNECT, "HO1P", FMN-1:  sp3, " O1P"
+CONNECT, "HO2P", FMN-1:  sp3, " O2P"
+CONNECT, " HN3", FMN-1:    s, " N3 "
+CONNECT, " H6 ", FMN-1:    s, " C6 "
+CONNECT, "HM71", FMN-1:    s, " C7M"
+CONNECT, "HM72", FMN-1:    s, " C7M"
+CONNECT, "HM73", FMN-1:    s, " C7M"
+CONNECT, "HM81", FMN-1:    s, " C8M"
+CONNECT, "HM82", FMN-1:    s, " C8M"
+CONNECT, "HM83", FMN-1:    s, " C8M"
+CONNECT, " H9 ", FMN-1:    s, " C9 "
+CONNECT, "H1'1", FMN-1:    s, " C1'"
+CONNECT, "H1'2", FMN-1:    s, " C1'"
+CONNECT, " H2'", FMN-1:    s, " C2'"
+CONNECT, "HO2'", FMN-1:    s, " O2'"
+CONNECT, " H3'", FMN-1:    s, " C3'"
+CONNECT, "HO3'", FMN-1:    s, " O3'"
+CONNECT, " H4'", FMN-1:    s, " C4'"
+CONNECT, "HO4'", FMN-1:    s, " O4'"
+CONNECT, "H5'1", FMN-1:    s, " C5'"
+CONNECT, "H5'2", FMN-1:    s, " C5'"
+
+# ATOM charges
+CHARGE, FMN01, " N1 ": -0.684
+CHARGE, FMN01, " C2 ":  0.935
+CHARGE, FMN01, " O2 ": -0.744
+CHARGE, FMN01, " N3 ": -0.746
+CHARGE, FMN01, " C4 ":  0.750
+CHARGE, FMN01, " O4 ": -0.691
+CHARGE, FMN01, " C4A": -0.008
+CHARGE, FMN01, " N5 ": -0.614
+CHARGE, FMN01, " C5A":  0.652
+CHARGE, FMN01, " C6 ": -0.520
+CHARGE, FMN01, " C7 ":  0.199
+CHARGE, FMN01, " C7M": -0.258
+CHARGE, FMN01, " C8 ":  0.090
+CHARGE, FMN01, " C8M": -0.301
+CHARGE, FMN01, " C9 ": -0.334
+CHARGE, FMN01, " C9A": -0.296
+CHARGE, FMN01, " N10":  0.301
+CHARGE, FMN01, " C10":  0.149
+CHARGE, FMN01, " C1'": -0.317
+CHARGE, FMN01, " C2'":  0.294
+CHARGE, FMN01, " O2'": -0.786
+CHARGE, FMN01, " C3'":  0.247
+CHARGE, FMN01, " O3'": -0.787
+CHARGE, FMN01, " C4'":  0.276
+CHARGE, FMN01, " O4'": -0.801
+CHARGE, FMN01, " C5'":  0.125
+CHARGE, FMN01, " O5'": -0.508
+CHARGE, FMN01, " P  ":  1.321
+CHARGE, FMN01, " O1P": -0.641
+CHARGE, FMN01, " O2P": -0.641
+CHARGE, FMN01, " O3P": -0.754
+CHARGE, FMN01, "HO1P":  0.433
+CHARGE, FMN01, "HO2P":  0.433
+CHARGE, FMN01, " HN3":  0.363
+CHARGE, FMN01, " H6 ":  0.201
+CHARGE, FMN01, "HM71":  0.067
+CHARGE, FMN01, "HM72":  0.067
+CHARGE, FMN01, "HM73":  0.067
+CHARGE, FMN01, "HM81":  0.078
+CHARGE, FMN01, "HM82":  0.078
+CHARGE, FMN01, "HM83":  0.078
+CHARGE, FMN01, " H9 ":  0.258
+CHARGE, FMN01, "H1'1":  0.104
+CHARGE, FMN01, "H1'2":  0.104
+CHARGE, FMN01, " H2'":  0.036
+CHARGE, FMN01, "HO2'":  0.473
+CHARGE, FMN01, " H3'":  0.071
+CHARGE, FMN01, "HO3'":  0.486
+CHARGE, FMN01, " H4'":  0.049
+CHARGE, FMN01, "HO4'":  0.491
+CHARGE, FMN01, "H5'1":  0.078
+CHARGE, FMN01, "H5'2":  0.078
+CHARGE, FMN-1, " N1 ": -0.631
+CHARGE, FMN-1, " C2 ":  0.854
+CHARGE, FMN-1, " O2 ": -0.613
+CHARGE, FMN-1, " N3 ": -0.672
+CHARGE, FMN-1, " C4 ":  0.673
+CHARGE, FMN-1, " O4 ": -0.572
+CHARGE, FMN-1, " C4A":  0.213
+CHARGE, FMN-1, " N5 ": -0.505
+CHARGE, FMN-1, " C5A":  0.493
+CHARGE, FMN-1, " C6 ": -0.416
+CHARGE, FMN-1, " C7 ":  0.110
+CHARGE, FMN-1, " C7M": -0.256
+CHARGE, FMN-1, " C8 ":  0.207
+CHARGE, FMN-1, " C8M": -0.340
+CHARGE, FMN-1, " C9 ": -0.407
+CHARGE, FMN-1, " C9A": -0.105
+CHARGE, FMN-1, " N10":  0.069
+CHARGE, FMN-1, " C10":  0.306
+CHARGE, FMN-1, " C1'": -0.126
+CHARGE, FMN-1, " C2'":  0.232
+CHARGE, FMN-1, " O2'": -0.740
+CHARGE, FMN-1, " C3'":  0.135
+CHARGE, FMN-1, " O3'": -0.780
+CHARGE, FMN-1, " C4'":  0.365
+CHARGE, FMN-1, " O4'": -0.811
+CHARGE, FMN-1, " C5'":  0.023
+CHARGE, FMN-1, " O5'": -0.425
+CHARGE, FMN-1, " P  ":  1.216
+CHARGE, FMN-1, " O1P": -0.623
+CHARGE, FMN-1, " O2P": -0.623
+CHARGE, FMN-1, " O3P": -0.715
+CHARGE, FMN-1, "HO1P":  0.443
+CHARGE, FMN-1, "HO2P":  0.443
+CHARGE, FMN-1, " HN3":  0.379
+CHARGE, FMN-1, " H6 ":  0.236
+CHARGE, FMN-1, "HM71":  0.087
+CHARGE, FMN-1, "HM72":  0.087
+CHARGE, FMN-1, "HM73":  0.087
+CHARGE, FMN-1, "HM81":  0.111
+CHARGE, FMN-1, "HM82":  0.111
+CHARGE, FMN-1, "HM83":  0.111
+CHARGE, FMN-1, " H9 ":  0.295
+CHARGE, FMN-1, "H1'1":  0.104
+CHARGE, FMN-1, "H1'2":  0.104
+CHARGE, FMN-1, " H2'":  0.066
+CHARGE, FMN-1, "HO2'":  0.453
+CHARGE, FMN-1, " H3'":  0.101
+CHARGE, FMN-1, "HO3'":  0.508
+CHARGE, FMN-1, " H4'":  0.056
+CHARGE, FMN-1, "HO4'":  0.482
+CHARGE, FMN-1, "H5'1":  0.099
+CHARGE, FMN-1, "H5'2":  0.099
+
+# Atom radius, dielelctric boundary radius, VDW radius, and energy well depth
+RADIUS, FMN01, " N1 ":  1.500,  1.750,  0.160
+RADIUS, FMN01, " C2 ":  1.700,  2.000,  0.150
+RADIUS, FMN01, " O2 ":  1.400,  1.600,  0.200
+RADIUS, FMN01, " N3 ":  1.500,  1.750,  0.160
+RADIUS, FMN01, " C4 ":  1.700,  2.000,  0.150
+RADIUS, FMN01, " O4 ":  1.400,  1.600,  0.200
+RADIUS, FMN01, " C4A":  1.700,  2.000,  0.150
+RADIUS, FMN01, " N5 ":  1.500,  1.750,  0.160
+RADIUS, FMN01, " C5A":  1.700,  2.000,  0.150
+RADIUS, FMN01, " C6 ":  1.700,  2.000,  0.150
+RADIUS, FMN01, " C7 ":  1.700,  2.000,  0.150
+RADIUS, FMN01, " C7M":  1.700,  2.000,  0.150
+RADIUS, FMN01, " C8 ":  1.700,  2.000,  0.150
+RADIUS, FMN01, " C8M":  1.700,  2.000,  0.150
+RADIUS, FMN01, " C9 ":  1.700,  2.000,  0.150
+RADIUS, FMN01, " C9A":  1.700,  2.000,  0.150
+RADIUS, FMN01, " N10":  1.500,  1.750,  0.160
+RADIUS, FMN01, " C10":  1.700,  2.000,  0.150
+RADIUS, FMN01, " C1'":  1.700,  2.000,  0.150
+RADIUS, FMN01, " C2'":  1.700,  2.000,  0.150
+RADIUS, FMN01, " O2'":  1.400,  1.600,  0.200
+RADIUS, FMN01, " C3'":  1.700,  2.000,  0.150
+RADIUS, FMN01, " O3'":  1.400,  1.600,  0.200
+RADIUS, FMN01, " C4'":  1.700,  2.000,  0.150
+RADIUS, FMN01, " O4'":  1.400,  1.600,  0.200
+RADIUS, FMN01, " C5'":  1.700,  2.000,  0.150
+RADIUS, FMN01, " O5'":  1.400,  1.600,  0.200
+RADIUS, FMN01, " P  ":  1.850,  2.000,  0.200
+RADIUS, FMN01, " O1P":  1.400,  1.600,  0.200
+RADIUS, FMN01, " O2P":  1.400,  1.600,  0.200
+RADIUS, FMN01, " O3P":  1.400,  1.600,  0.200
+RADIUS, FMN01, "HO1P":  1.000,  1.000,  0.020
+RADIUS, FMN01, "HO2P":  1.000,  1.000,  0.020
+RADIUS, FMN01, " HN3":  1.000,  1.000,  0.020
+RADIUS, FMN01, " H6 ":  1.000,  1.000,  0.020
+RADIUS, FMN01, "HM71":  1.000,  1.000,  0.020
+RADIUS, FMN01, "HM72":  1.000,  1.000,  0.020
+RADIUS, FMN01, "HM73":  1.000,  1.000,  0.020
+RADIUS, FMN01, "HM81":  1.000,  1.000,  0.020
+RADIUS, FMN01, "HM82":  1.000,  1.000,  0.020
+RADIUS, FMN01, "HM83":  1.000,  1.000,  0.020
+RADIUS, FMN01, " H9 ":  1.000,  1.000,  0.020
+RADIUS, FMN01, "H1'1":  1.000,  1.000,  0.020
+RADIUS, FMN01, "H1'2":  1.000,  1.000,  0.020
+RADIUS, FMN01, " H2'":  1.000,  1.000,  0.020
+RADIUS, FMN01, "HO2'":  1.000,  1.000,  0.020
+RADIUS, FMN01, " H3'":  1.000,  1.000,  0.020
+RADIUS, FMN01, "HO3'":  1.000,  1.000,  0.020
+RADIUS, FMN01, " H4'":  1.000,  1.000,  0.020
+RADIUS, FMN01, "HO4'":  1.000,  1.000,  0.020
+RADIUS, FMN01, "H5'1":  1.000,  1.000,  0.020
+RADIUS, FMN01, "H5'2":  1.000,  1.000,  0.020
+RADIUS, FMN-1, " N1 ":  1.500,  1.750,  0.160
+RADIUS, FMN-1, " C2 ":  1.700,  2.000,  0.150
+RADIUS, FMN-1, " O2 ":  1.400,  1.600,  0.200
+RADIUS, FMN-1, " N3 ":  1.500,  1.750,  0.160
+RADIUS, FMN-1, " C4 ":  1.700,  2.000,  0.150
+RADIUS, FMN-1, " O4 ":  1.400,  1.600,  0.200
+RADIUS, FMN-1, " C4A":  1.700,  2.000,  0.150
+RADIUS, FMN-1, " N5 ":  1.500,  1.750,  0.160
+RADIUS, FMN-1, " C5A":  1.700,  2.000,  0.150
+RADIUS, FMN-1, " C6 ":  1.700,  2.000,  0.150
+RADIUS, FMN-1, " C7 ":  1.700,  2.000,  0.150
+RADIUS, FMN-1, " C7M":  1.700,  2.000,  0.150
+RADIUS, FMN-1, " C8 ":  1.700,  2.000,  0.150
+RADIUS, FMN-1, " C8M":  1.700,  2.000,  0.150
+RADIUS, FMN-1, " C9 ":  1.700,  2.000,  0.150
+RADIUS, FMN-1, " C9A":  1.700,  2.000,  0.150
+RADIUS, FMN-1, " N10":  1.500,  1.750,  0.160
+RADIUS, FMN-1, " C10":  1.700,  2.000,  0.150
+RADIUS, FMN-1, " C1'":  1.700,  2.000,  0.150
+RADIUS, FMN-1, " C2'":  1.700,  2.000,  0.150
+RADIUS, FMN-1, " O2'":  1.400,  1.600,  0.200
+RADIUS, FMN-1, " C3'":  1.700,  2.000,  0.150
+RADIUS, FMN-1, " O3'":  1.400,  1.600,  0.200
+RADIUS, FMN-1, " C4'":  1.700,  2.000,  0.150
+RADIUS, FMN-1, " O4'":  1.400,  1.600,  0.200
+RADIUS, FMN-1, " C5'":  1.700,  2.000,  0.150
+RADIUS, FMN-1, " O5'":  1.400,  1.600,  0.200
+RADIUS, FMN-1, " P  ":  1.850,  2.000,  0.200
+RADIUS, FMN-1, " O1P":  1.400,  1.600,  0.200
+RADIUS, FMN-1, " O2P":  1.400,  1.600,  0.200
+RADIUS, FMN-1, " O3P":  1.400,  1.600,  0.200
+RADIUS, FMN-1, "HO1P":  1.000,  1.000,  0.020
+RADIUS, FMN-1, "HO2P":  1.000,  1.000,  0.020
+RADIUS, FMN-1, " HN3":  1.000,  1.000,  0.020
+RADIUS, FMN-1, " H6 ":  1.000,  1.000,  0.020
+RADIUS, FMN-1, "HM71":  1.000,  1.000,  0.020
+RADIUS, FMN-1, "HM72":  1.000,  1.000,  0.020
+RADIUS, FMN-1, "HM73":  1.000,  1.000,  0.020
+RADIUS, FMN-1, "HM81":  1.000,  1.000,  0.020
+RADIUS, FMN-1, "HM82":  1.000,  1.000,  0.020
+RADIUS, FMN-1, "HM83":  1.000,  1.000,  0.020
+RADIUS, FMN-1, " H9 ":  1.000,  1.000,  0.020
+RADIUS, FMN-1, "H1'1":  1.000,  1.000,  0.020
+RADIUS, FMN-1, "H1'2":  1.000,  1.000,  0.020
+RADIUS, FMN-1, " H2'":  1.000,  1.000,  0.020
+RADIUS, FMN-1, "HO2'":  1.000,  1.000,  0.020
+RADIUS, FMN-1, " H3'":  1.000,  1.000,  0.020
+RADIUS, FMN-1, "HO3'":  1.000,  1.000,  0.020
+RADIUS, FMN-1, " H4'":  1.000,  1.000,  0.020
+RADIUS, FMN-1, "HO4'":  1.000,  1.000,  0.020
+RADIUS, FMN-1, "H5'1":  1.000,  1.000,  0.020
+RADIUS, FMN-1, "H5'2":  1.000,  1.000,  0.020
+
+# Conformer parameters that appear in head3.lst: ne, Em0, nH, pKa0, rxn
+CONFORMER, FMN01:  Em0=0.0, pKa0=0.00, ne=0, nH=0, rxn02= 0, rxn04= 20.636, rxn08= 0
+CONFORMER, FMN-1:  Em0=0.0, pKa0=0.00, ne=-1, nH=0, rxn02= 0, rxn04= 20.636, rxn08= 0
+
